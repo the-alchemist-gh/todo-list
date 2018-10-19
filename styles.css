@@ -1,20 +1,36 @@
 /* Some styles if you can write some good css too */
 body{
     background: #c31432;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #240b36, #c31432) cover;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #240b36, #c31432) cover; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size: cover;
-color: whitesmoke;
-text-align: center;
+background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+    text-align: center;
 }
 
 input{
     border-radius: 20px 20px 20px 20px;
     padding: 10px;
     border: 0px solid gray;
-    background-color: #4949496b;
+    background-color: rgba(255,255,255,0.4);
+    color: White;
 }
 
-fas{
-    background-color: 
+.fas{
+    background-color: rgba(255,255,255,0.4);
+    padding : 10px;
+    border-radius: 50%;
+}
+
+#task-field{
+    width: 80%;
+}
+
+#task-input{
+    margin: 0px;
+    width: 100%;
+}
+
+#task-section{
+    width: 40%;
+    margin: 10px 30%;
 }
