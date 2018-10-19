@@ -2,10 +2,33 @@
 <html>
 <head>
 	<title>Todo-List</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h6>Hi There!!! </h6>
 	<!-- add some good looking content here -->
 	<!-- we basically need input with where we can list our todos -->
+	<div id="todo-list">
+		<h1>ToDo List Creator</h1>
+		<div class="nameInput">
+			<label>Please Enter your Name:</label>
+			<input type="text" placeholder="The Alchemist" name="name" id="name">
+		</div>
+		<div class="welcome-text">
+			<h2>Welcome name, </h2>
+			<p>Glad to have you here. List it and just do it. 
+				<br>Push yourself because no one else is going to do it for you. 
+				<br>JUST DO IT</p>
+		</div>
+		<div id="task-section">
+			<div id="task-input" class="nameInput">
+				<input type="text" placeholder="Please input your task"><i class="fas fa-plus"></i>
+			</div>
+			<div id="tasks">
+
+			</div>
+		</div>
+	</div>
+	
 </body>
 </html>
